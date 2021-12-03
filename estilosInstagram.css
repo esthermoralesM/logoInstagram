@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(241, 240, 240, 0.774);
+}
+
+
+#contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+  
+   
+}
+
+#padre{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgba(148, 147, 147, 0.4);
+    padding: 30px;
+   height: 430px;
+   background-color: white;
+}
+.inputs input{
+    height: 40px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 3px;
+    border: 1px solid rgba(148, 147, 147, 0.4);
+    background-color: rgb(236, 231, 231);
+   
+}
+
+.inputs button{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(123, 123, 214);
+    color: white;
+
+    padding: 10px;
+    border-style: none;
+    font-weight: bold;
+    border-radius: 3px;
+
+}
+
+.inputs a{
+    text-decoration: none;
+    color: gray;
+    text-align: center
+}
+
+form{
+    height: 400px; 
+    width: 350px;
+    
+}
+
+.telefono{
+    width: 400px;
+}
+
+.icono{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.icono p{
+    background: url("./facebookIcon.png") no-repeat left top;
+    padding-left: 22px;
+    color: rgb(28, 28, 131);
+    font-weight: bold;
+   
+}
+
+#registrarse{
+    /* display: flex;
+    
+    align-items: flex-end;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 10px; */
+    
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid rgba(148, 147, 147, 0.4);
+  height: 60px;
+  width: 350px;
+  background-color: white;
+}
+
+/* #registrarse p{
+    align-self: flex-end;
+} */
+
+#rellenar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#registrarse a{
+    color: rgb(81, 81, 199);
+    text-decoration: none;
+}
+
+.inputs h1{
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 60px;
+}
+
+.or{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.or hr{
+    width: 120px;
+    height: 1px;
+    border-style: none;
+    background: rgba(148, 147, 147, 0.4);
+}
+
+.or p{
+    font-size: 17px;
+    color: gray;
+}
+
+#descargar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pDescarga{
+    text-align: center;
+}
+
+#descargar img{
+    
+    width: 140px;
+}
+
+@media screen and (max-width: 475px) {
+   
+    .telefono{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 753px) {
+   
+    .telefono{
+        display: none;
+    }
+}
+
+
